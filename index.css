@@ -1,0 +1,113 @@
+/* Regras para o documento em geral */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24vh;
+    background-color: #934194;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+    border: 1px solid white;
+    background-color: rgb(38, 2, 49);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+button:hover {
+    background-color: rgb(38, 2, 49);
+    color: blue;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    background-color: #934194;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border: 1px solid white;
+    background-color: rgb(92, 3, 128);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 25px;
+}
+
+h1 {
+    color: #FDA3FF;
+}
+
+h4 {
+    color: #FDA3FF;
+}
+
+td {
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+/* Regras para as cartelas e a area das cartelas */
+
+main section#cartelas {
+    width: 70%;
+    height: 76vh;
+    background-image: linear-gradient(rgb(29, 0, 24), rgb(59, 0, 51));
+}
+
+.cartela {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
+
+section#cartelas nav {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+}
+
+section#cartelas div#espaco_cartelas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main section#numeros {
+    width: 30%;
+    height: 76vh;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
